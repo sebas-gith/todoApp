@@ -1,0 +1,79 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#input {
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-bottom: solid;
+}
+
+#buttonCreate {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(8, 193, 122);
+  border: none;
+  margin-left: 20px;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgb(3, 138, 211);
+  }
+}
+
+.completed {
+  text-decoration: line-through;
+}
+.element {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #272325;
+  width: 300px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.fa-delete-left {
+  margin-left: 10px;
+  cursor: pointer;
+  color: tomato;
+}
+.text {
+  position: absolute;
+  left: 40px;
+  margin-left: 10px;
+}
+.actions {
+  position: absolute;
+  right: 20px;
+}
+
+.position {
+  left: 10px;
+  position: absolute;
+  border: none;
+  background-color:darkslategray;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  appearance: none;
+  outline: none;
+}
